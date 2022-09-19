@@ -13,7 +13,7 @@ const Entries = () => {
     const [addNewEntry, setAddNewEntry] = useState(false)
     const [newEntry, setNewEntry] = useState({ "dish": "", "ingredients": "", "calories": "0", "fat": 0 })
 
-    const HOSTURL = "http://localhost:8000"
+    const HOSTURL = "https://calorie-backendgo.herokuapp.com"
 
     useEffect(() => {
         getAllEntries();
